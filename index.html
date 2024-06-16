@@ -1,0 +1,57 @@
+<!DOCTYPE html><!-- 乖孩子，我知道你来扒源码了，但是不要二改倒卖哦否则我操你妈 -->
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>无名</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    margin-top:100px;
+  }
+  #image {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+  }
+  #countdown {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    : ;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <h1>欢迎来到无名查Q绑号</h1>
+  <img id="image" src="http://q1.qlogo.cn/g?b=qq&nk=3470016784&s=100" alt="Image">
+  <div id="countdown">3</div>
+
+  <script>
+   
+    let countdownElement = document.getElementById('countdown');
+    let seconds = 3;
+    let countdownInterval = setInterval(function() {
+      seconds--;
+      countdownElement.textContent = seconds;
+      if (seconds <= 0) {
+        clearInterval(countdownInterval);
+       
+        window.location.href = 'https://fufenchen.github.io/wmnbxxx/';
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
